@@ -13,7 +13,7 @@ const TrackDanceability = ({ data }) => {
             {
               label: "Danceability",
               data: topTracks.map((track) => track.danceability), // Using danceability as the parameter
-              backgroundColor: "rgba(153, 102, 255, 0.6)", // Light purple color
+              backgroundColor: "white", // Light purple color
               borderColor: "rgba(153, 102, 255, 1)",
               borderWidth: 1,
               datalabels: {
